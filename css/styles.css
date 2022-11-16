@@ -1,0 +1,195 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.body-style {
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #B4CDE6; 
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1;
+  text-align: center;
+  color: #B4CDE6;
+}
+
+.big-heading-2 {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1;
+  text-align: center;
+  color: #CF0A0A;
+  padding-bottom: 1rem;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding-top: 2%;
+  padding-bottom: 4.5%;
+}
+
+.container-fluid-map {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Sections */
+
+.dark-colored-section {
+  background-color: #1A2238;
+  color: #fff;
+}
+
+.yellow-section {
+  background-color: #B4CDE6;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Download Button */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #1A2238;
+  color: #fff;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 50%;
+  right: 25%;
+  top: 3rem;
+}
+
+.main-logo {
+  width: 20%;
+}
+
+.company-description {
+  font-family: "Montserrat-Bold";
+  background-color: #1A2238;
+  text-align: center;
+  padding: 3% 15% 7%;
+}
+
+.div-com-img {
+  background-color: #1A2238;
+}
+
+.div-pro-img {
+  background-color: #B4CDE6;
+}
+
+/* Product Section */
+
+#product {
+  padding: 100px;
+}
+
+.product-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.product-column {
+  padding: 3% 2%;
+  color: #CF0A0A;
+}
+
+.product-img {
+  width: 70%;
+  margin: 20px;
+}
+
+.p_des {
+  color: #CF0A0A;
+}
+
+/* Map embedded */
+
+.container-fluid-map {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins, sans-seriff';
+}
+
+iframe {
+  width: 80%;
+  height: 500px;
+  filter: invert(100%);
+}
+
+/* Footer Section */
+
+#footer {
+  background-color: #B4CDE6;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
